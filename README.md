@@ -16,6 +16,8 @@ A comparative deep learning study on stock price forecasting using three archite
 ├── best_lstm_model.keras                         ← Saved LSTM weights
 └── dataset.csv                                   ← Historical stock price data
 ```
+---
+
 ## Technologies Used
 ### Core Language
 - Python 3
@@ -55,6 +57,19 @@ All models solve the same task: **given the last 50 days of Adjusted Close price
 - **Architecture:** BiLSTM(64) → BiLSTM(32) → Dense(64, ReLU) → Output(1)
 - **Optimiser:** Adam · Callbacks: EarlyStopping, ReduceLROnPlateau
 - **Input:** (50, 1) 3-D sequence
+
+---
+
+## 📊 Results Preview
+
+### BPNN (Tanh) — Best Model
+![BPNN Tanh Prediction](images/bpnn.png)
+
+### CNN
+![CNN Prediction](images/cnn.png)
+
+### LSTM
+![LSTM Prediction](images/lstm.png)
 
 ---
 
