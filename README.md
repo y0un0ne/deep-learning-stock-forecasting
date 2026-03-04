@@ -122,7 +122,7 @@ lstm_model = load_model('best_lstm_model.keras')
 
 ## 📚 Background
 
-This project was developed as a final assignment for the **Special Topics in Control Engineering** course at Universitas Indonesia (Departemen Teknik Elektro, 2025). It explores the practical trade-offs between model complexity and performance on financial time-series data.
+This project was developed as a final assignment for one of the courses i took. It explores the practical trade-offs between model complexity and performance on financial time-series data.
 
 Key topics covered:
 - Time-series forecasting with sliding windows
