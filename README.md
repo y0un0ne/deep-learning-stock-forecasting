@@ -5,14 +5,19 @@ A comparative deep learning study on stock price forecasting using three archite
 ---
 
 ## 🗂️ Project Structure
-
 ```
-├── BPNNPred-tanh_Stock_Market_Prediction.ipynb   ← Best model (tanh · NumPy)
-├── ReLu_Stock_Market_Prediction.ipynb            ← BPNN variant with ReLU
-├── Sigmoid_Stock_Market_Prediction.ipynb         ← BPNN variant with Sigmoid
-├── CNNPred.ipynb                                 ← CNN model (Keras)
-├── LSTMPred.ipynb                                ← Bidirectional LSTM (Keras)
-└── dataset.csv                                   ← Historical stock price data
+├── experiments/
+│   ├── ReLu_Stock Market Prediction.ipynb     ← BPNN variant with ReLU activation
+│   └── Sigmoid_Stock Market Prediction.ipynb  ← BPNN variant with Sigmoid activation
+├── images/
+│   ├── bpnn.png                               ← BPNN predicted vs actual plot
+│   ├── cnn.png                                ← CNN predicted vs actual plot
+│   └── lstm.png                               ← LSTM predicted vs actual plot
+├── BPNNPred-tanh_Stock Market Prediction.ipynb  ← Best model (tanh · NumPy)
+├── CNNPred.ipynb                                ← CNN model (Keras)
+├── LSTMPred.ipynb                               ← Bidirectional LSTM (Keras)
+├── README.md
+└── dataset.csv                                  ← Historical stock price data
 ```
 ---
 
