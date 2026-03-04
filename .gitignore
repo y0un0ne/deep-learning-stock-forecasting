@@ -1,0 +1,9 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Keras saved models
+*.keras
+
+# Python cache
+__pycache__/
+*.pyc
