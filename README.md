@@ -12,8 +12,6 @@ A comparative deep learning study on stock price forecasting using three archite
 ├── Sigmoid_Stock_Market_Prediction.ipynb         ← BPNN variant with Sigmoid
 ├── CNNPred.ipynb                                 ← CNN model (Keras)
 ├── LSTMPred.ipynb                                ← Bidirectional LSTM (Keras)
-├── best_cnn_model.keras                          ← Saved CNN weights
-├── best_lstm_model.keras                         ← Saved LSTM weights
 └── dataset.csv                                   ← Historical stock price data
 ```
 ---
